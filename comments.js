@@ -88,4 +88,4 @@ app.put('/comments/:id', (req, res) => {
       res.redirect(`/comments/${comment._id}`)
     })
     .catch(err => {
-      console.log(err)
+      console.log(err) }) })
